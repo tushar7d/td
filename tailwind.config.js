@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
@@ -6,6 +7,11 @@ module.exports = {
   purge: ["./src/*.html"],
   theme: {
     extend: {},
+    fontFamily: {
+      'sans': ['Poppins', 'sans-serif']
+     
+     }
+    
   },
   variants: {},
   plugins: [],
