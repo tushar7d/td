@@ -13,11 +13,60 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap"
       rel="stylesheet"
     />
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
     <link href="./assets/css/styles.css" rel="stylesheet" />
+    
   </head>
   <body>
-    <div class="min-h-screen flex items-center justify-center">
-      <h1 class="text-5xl text-purple-500 font-sans font-black">Hello.</h1>
-    </div>
+    <header class="sticky top-0 z-50 w-screen px-8 py-4 bg-white shadow">
+      <div class="flex items-center justify-between px-4 mx-auto">
+        <div class="text-3xl font-semibold">Debnath.</div>
+        <nav class="grid grid-flow-col gap-8 text-lg font-medium">
+          <a href="/">Home</a>
+          <a>Work</a>
+          <a>About</a>
+          <a>Resume</a>
+        </nav>
+      </div>
+    </header>
+    <main class="relative h-screen ">
+     
+      <div class="h-screen swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide w-1/2  ">
+            <div class="flex items-center justify-between px-4">
+              <div class="mx-auto mt-[200px]">
+            
+                <div class="mb-2 text-4xl font-semibold">Hello, I am Tushar Debnath</div>
+                <div  class="text-xl text-gray-500 ">
+                  A product designer and design technologist from New Delhi, India. I
+                  currently work at Zomato and previously I have worked at Expedia,
+                  MakeMyTrip, and Hike Messenger. When Im not designing or coding, I
+                  spend my time on Fantasy books, old school shonen manga, music from
+                  the 90s and travelling with my wife.
+                </div>
+              </div>
+             
+            </div>
+
+            
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+      </div>
+        
+    </main>
+    <footer>foter</footer>
   </body>
+  <script type="module" src="./index.js"></script>
 </html>
