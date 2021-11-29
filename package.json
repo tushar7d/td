@@ -1,7 +1,7 @@
 {
-  "name": "tailwindcss-parcel-starter",
+  "name": "sandbox",
   "version": "1.0.0",
-  "description": "A simple tailwind starter project with parcel",
+  "description": "",
   "scripts": {
     "dev": "npx parcel src/index.html",
     "prod": "npx parcel build src/index.html"
@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "swiper": "^7.3.1"
-  }
+  },
+  "keywords": []
 }
