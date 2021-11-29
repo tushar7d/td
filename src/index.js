@@ -1,9 +1,7 @@
-import Swiper from "swiper";
+import LocomotiveScroll from 'locomotive-scroll';
 
-
-const swiper = new Swiper('.mySwiper', {
-    slidesPerView: "auto",
-        spaceBetween: 30,
-        loop: true,
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+    direction:"horizontal"
 });
-
